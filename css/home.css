@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+header img{
+    width: 40%;
+}
+
+#Titulo{
+    color: #795548;
+}
+
+#Encabezado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    padding: 30px;
+    text-decoration: none;
+    color: #795548;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #B71C1C;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Foto{
+    width: 100%;
+}
+
+#Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: justify;
+    color: #795548;
+}
+
+#Info h2{
+    color: #795548;
+}
+
+#Info p{
+    font-size: 18px;
+}
+
+body{
+    background-color: #ECEFF1;
+}
