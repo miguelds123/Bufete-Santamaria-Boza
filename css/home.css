@@ -5,6 +5,10 @@ header{
     width: 30%;
 }
 
+#botonMenu{
+    display: none;
+}
+
 header img{
     width: 40%;
 }
@@ -152,6 +156,10 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    #botonMenu{
+        display: block;
     }
 
     header{
