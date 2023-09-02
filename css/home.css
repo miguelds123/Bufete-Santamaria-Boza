@@ -42,7 +42,7 @@ main{
     width: 100%;
 }
 
-#Info{
+.Info{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,14 +52,155 @@ main{
     color: #795548;
 }
 
-#Info h2{
+.Info h2{
     color: #795548;
 }
 
-#Info p{
+.Info p{
     font-size: 18px;
+}
+
+.InfoDueño{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: justify;
+    color: #795548;
+    margin-top: 2%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #795548;
+    background-color: #B0BEC5;
+    margin-top: 5%;
+}
+
+footer a{
+    list-style: none;
+    text-decoration: none;
+    color: #795548;
+}
+
+.FooterLinks a:hover{
+    color: #B71C1C;
+    padding-left: 6px;
+}
+
+.FooterLinks{
+    color: #795548;
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterLinks a{
+    margin-bottom: 10px;
+    transition: all .3s ease;
+}
+
+.RedesLinks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.RedesLinks a{
+    margin-bottom: 5px;
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: #ECEFF1;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 0 10px 10px 0;
+    transition: all .5s ease;
+}
+
+.RedesLinks a:hover{
+    background-color: #D0D7DB;
+}
+
+#FotoDueño{
+    width: 20%;
+    border: solid 1px black;
+    margin-right: 2%;
+}
+
+#ColFooter{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#FotoDueño{
+    border: 0px;
 }
 
 body{
     background-color: #ECEFF1;
+}
+
+@media (max-width: 991px){
+    
+    #Encabezado{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    #logo{
+        width: 50%;
+    }
+
+    #navigation-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    #navigation-menu a{
+        margin: 0px;
+        padding: 20px;
+    }
+
+    main{
+        margin-top: 20px;
+    }
+
+    .Info{
+        width: 80%;
+    }
+
+    #Foto{
+        width: 100%;
+    }
+
+    .InfoDueño{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #FotoDueño{
+        width: 40%;
+    }
+
+    #Datos{
+        text-align: center;
+    }
+
 }
