@@ -56,6 +56,10 @@ main{
     color: #795548;
 }
 
+.Info h1{
+    font-size: 30px;
+}
+
 .Info h2{
     color: #795548;
 }

@@ -1,0 +1,40 @@
+.Servicios{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 225px;
+}
+
+.Titulo{
+    text-align: center;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.listaServicios{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+@media (max-width: 991px){
+    .listaServicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Info h1{
+        text-align: center;
+    }
+}
