@@ -87,6 +87,10 @@ main{
     color: #795548;
 }
 
+.TituloSeccion{
+    font-size: 30px;
+}
+
 .Info p{
     font-size: 18px;
 }
