@@ -89,6 +89,7 @@ main{
 
 .TituloSeccion{
     font-size: 30px;
+    text-align: center;
 }
 
 .Info p{
