@@ -87,6 +87,14 @@ main{
     color: #795548;
 }
 
+.Info h3{
+    font-size: 22px;
+}
+
+.Info h4{
+    font-size: 18px;
+}
+
 .TituloSeccion{
     font-size: 30px;
     text-align: center;
