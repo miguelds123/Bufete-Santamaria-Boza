@@ -1,6 +1,5 @@
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 30%;
 }
@@ -44,7 +43,9 @@ header img{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 nav a{
@@ -67,6 +68,7 @@ main{
 
 #Foto{
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .Info{
